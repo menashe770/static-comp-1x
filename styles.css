@@ -43,6 +43,7 @@ header img {
   position: relative;
   top: 40px;
   right: 20px;
+  cursor: pointer;
 }
 
 .nav-links,
