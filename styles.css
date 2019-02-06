@@ -8,6 +8,7 @@ header {
   display: flex;
   height: 120px;
   padding: 15px;
+  padding-bottom: 30px;
 }
 
 a {
@@ -39,6 +40,9 @@ header .fa-nav:hover {
 
 header img {
   width: 200px;
+  position: relative;
+  top: 40px;
+  right: 20px;
 }
 
 .nav-links,
@@ -50,9 +54,22 @@ h3 {
   align-self: flex-end;
 }
 
-main {
+.admin {
+  position: relative;
+  left: -2px;
+  padding-top: 5px;
+}
+
+.admin a {
+  font-size: 18px;
+}
+
+.header-right {
+  margin-left: auto;
+}
+
+body {
   background-color: #efefef;
-  height: 900px;
 }
 
 .container {
@@ -69,19 +86,55 @@ main {
 
 h1 {
   padding: 20px;
+  margin-left: 75px;
 }
 
 .card {
   background-color: #fff;
   width: 300px;
   height: 420px;
-  border: solid 2px black;
   margin: 15px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+  border-radius: 3px;
+  box-shadow: 1px 1px 2px gray, 0 0 1em #76BBF4, 0 0 0.2em #76BBF4;
 }
 
 .card img {
   width: 300px;
+  height: 180px;
   filter: brightness(50%);
+}
+
+.image-div {
+  position: relative;
+}
+
+.fa-share {
+  color: #fff;
+  font-size: 50px;
+  position: absolute;
+  bottom: 120px;
+  left: 15px;
+}
+
+.p2 {
+  color: #fff;
+  font-size: 15px;
+  position: absolute;
+  bottom: 153px;
+  left: 239px;
+}
+
+.p3 {
+  color: #fff;
+  font-size: 40px;
+  position: absolute;
+  bottom: 105px;
+  left: 235px;
 }
 
 article {
@@ -105,6 +158,14 @@ h1,
 h2,
 h3 {
   font-weight: 300;
+}
+
+.p1 {
+  font-size: 10px;
+}
+
+.h3 {
+  padding-top: 10px;
 }
 
 .art-link {
